@@ -1,4 +1,4 @@
-package com.reactive.demo.model;
+package com.reactive.demo.dto;
 
 import lombok.Data;
 

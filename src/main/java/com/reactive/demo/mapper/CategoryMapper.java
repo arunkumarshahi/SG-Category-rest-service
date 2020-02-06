@@ -4,8 +4,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
+import com.reactive.demo.dto.CategoryDTO;
 import com.reactive.demo.model.Category;
-import com.reactive.demo.model.CategoryDTO;
 
 @Mapper
 public interface CategoryMapper {

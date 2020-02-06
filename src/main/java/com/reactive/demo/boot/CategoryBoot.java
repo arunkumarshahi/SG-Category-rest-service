@@ -7,9 +7,9 @@ import java.util.List;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import com.reactive.demo.dto.CategoryDTO;
 import com.reactive.demo.mapper.CategoryMapper;
 import com.reactive.demo.model.Category;
-import com.reactive.demo.model.CategoryDTO;
 import com.reactive.demo.repository.CategoryRepository;
 
 import lombok.extern.slf4j.Slf4j;
