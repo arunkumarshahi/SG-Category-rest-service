@@ -32,7 +32,7 @@ public class CategoryBoot implements CommandLineRunner {
 	     log.info("Total records = "+categoryRepository.count());
 	     List<CategoryDTO> categoryDTOList=new ArrayList<CategoryDTO>();
 	     categoryRepository.findAll().forEach(category->{categoryDTOList.add(CategoryMapper.INSTANCE.categoryToCategoryDTO(category));});
-//	     CategoryMapper categoryMapper=
+
 	     categoryDTOList.stream().forEach(System.out::println);	
 	     
 		

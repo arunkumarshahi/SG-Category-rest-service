@@ -9,16 +9,17 @@ import lombok.Data;
 @Entity
 @Data
 public class Category {
-	
+
 	public Category(String name) {
-		this.name=name;
+		this.name = name;
 	}
-	
+
 	public Category() {
-		
+
 	}
-	
-	@Id @GeneratedValue 
+
+	@Id
+	@GeneratedValue
 	private Long id;
 	private String name;
 	private String category_url;

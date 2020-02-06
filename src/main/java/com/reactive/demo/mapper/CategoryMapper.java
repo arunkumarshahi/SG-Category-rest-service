@@ -11,10 +11,10 @@ import com.reactive.demo.model.CategoryDTO;
 public interface CategoryMapper {
 	CategoryMapper INSTANCE = Mappers.getMapper(CategoryMapper.class);
 
-@Mapping(source = "name",target ="categoryName" )
+	@Mapping(source = "name", target = "categoryName")
 	CategoryDTO categoryToCategoryDTO(Category category);
 
-@Mapping(source = "categoryName",target ="name" )
-Category categoryDTOToCategory(CategoryDTO categoryDTO);
+	@Mapping(source = "categoryName", target = "name")
+	Category categoryDTOToCategory(CategoryDTO categoryDTO);
 
 }
